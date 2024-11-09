@@ -452,7 +452,7 @@ void fee::addPayment()
     system("cls");
     cout << "\t\t\t  -------------------------------"
          << "\n";
-    cout << "\t\t\t     ADD PAYMENT DETAILS"
+    cout << "\t\t\t     ADD STUDENT DETAILS"
          << "\n";
     cout << "\t\t\t  -------------------------------"
          << "\n\n";
@@ -477,7 +477,7 @@ void fee::addPayment()
         write_fee();
 
         system("cls");
-        cout << green << "\n\n\t\t\tPayment Added Successfully!" << reset << endl;
+        cout << green << "\n\n\t\t\tStudent Added Successfully!" << reset << endl;
         Sleep(1500);
     }
     else
